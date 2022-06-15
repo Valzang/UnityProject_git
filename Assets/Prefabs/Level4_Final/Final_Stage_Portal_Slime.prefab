@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2663207879751361143}
   - component: {fileID: 8507437677728186898}
   - component: {fileID: 1197558911}
+  - component: {fileID: 108798734}
   m_Layer: 11
   m_Name: Final_Stage_Portal_Slime
   m_TagString: Enemy
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6e4460827a2fe4f43b83b4c9c55ec1dd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6274475, g: 0.9433962, b: 0.9122422, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -166,7 +167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
+<<<<<<< Updated upstream
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Detection","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"OG_Scale_X","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+=======
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Detection","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"OG_Scale_X","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+>>>>>>> Stashed changes
     _objectReferences: []
 --- !u!114 &8507437677728186898
 MonoBehaviour:
@@ -200,3 +205,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 9c6bc2308b07a43409769186177b2d7d, type: 2}
+--- !u!114 &108798734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788492154432791059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d8ea9aee58ed58a4f86aa48f4ed53aa1, type: 2}
