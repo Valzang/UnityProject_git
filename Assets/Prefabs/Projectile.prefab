@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 96296680818816048}
   - component: {fileID: 4468544735376198968}
   - component: {fileID: 8615145689541073054}
+  - component: {fileID: -1363694140560717264}
   m_Layer: 13
   m_Name: Projectile
   m_TagString: Projectile
@@ -269,3 +270,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 3ee8317e2f0344048a04f1f0ed7df6ee, type: 2}
+--- !u!251 &-1363694140560717264
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935948280087688}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
