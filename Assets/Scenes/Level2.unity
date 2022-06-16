@@ -3576,6 +3576,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2009706781014124232}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &903114949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7110789478475046021, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":131.8094,"y":-47.33681},"zoom":0.6999999,"elements":[{"type":"UnityEngine.AudioClip","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-326.0,"y":511.0},"guid":"8d92c179-8df6-46b3-8d7d-61f82b23865e","$version":"A","$type":"Bolt.Literal","$id":"10"},{"type":"UnityEngine.AudioClip","value":{"$content":1,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":417.0,"y":511.0},"guid":"5c830a7e-d322-4862-a900-86bce967f67c","$version":"A","$type":"Bolt.Literal","$id":"12"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip","System.Single"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null,"%volumeScale":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-54.0,"y":394.0},"guid":"ecdba2a1-6263-425f-bae7-cc3f4888d14b","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"HealSound","$type":"System.String"}},"position":{"x":247.0,"y":380.0},"guid":"59528c2e-3be5-44b4-9f1c-7195348cf932","$version":"A","$type":"Bolt.CustomEvent","$id":"17"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"AutojumpSound","$type":"System.String"}},"position":{"x":-628.0,"y":3.0},"guid":"80418eb7-39bb-4a32-8190-64396cab2e06","$version":"A","$type":"Bolt.CustomEvent","$id":"19"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"AttackSound","$type":"System.String"}},"position":{"x":-673.0,"y":-270.0},"guid":"17f3f084-a913-46ed-8600-cd0befe3f68d","$version":"A","$type":"Bolt.CustomEvent","$id":"21"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"FireSound","$type":"System.String"}},"position":{"x":-633.0,"y":388.0},"guid":"63c404ca-3099-4bab-9fe4-697c77531640","$version":"A","$type":"Bolt.CustomEvent","$id":"23"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip","System.Single"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null,"%volumeScale":{"$content":3.0,"$type":"System.Single"}},"position":{"x":747.0,"y":-57.0},"guid":"0e44d839-e703-49f5-adc6-6d505ef01128","$version":"A","$type":"Bolt.InvokeMember","$id":"25"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"JumpSounds","$type":"System.String"}},"position":{"x":215.0,"y":-63.0},"guid":"843d7c6b-c7ff-4aec-8ed5-59bdc74556da","$version":"A","$type":"Bolt.CustomEvent","$id":"28"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip","System.Single"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null,"%volumeScale":{"$content":15.0,"$type":"System.Single"}},"position":{"x":-270.0,"y":-230.0},"guid":"6c507282-2bcc-423f-85e7-7fac4751431b","$version":"A","$type":"Bolt.InvokeMember","$id":"30"},{"type":"UnityEngine.AudioClip","value":null,"defaultValues":{},"position":{"x":-422.0,"y":124.0},"guid":"b1b8e25a-3c8c-47b3-b1cc-2174ac8a9891","$version":"A","$type":"Bolt.Literal","$id":"33"},{"type":"UnityEngine.AudioClip","value":{"$content":2,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-510.0,"y":-130.0},"guid":"2cb08e79-1df4-4ecb-a2ee-81d4de75b8d9","$version":"A","$type":"Bolt.Literal","$id":"35"},{"type":"UnityEngine.AudioClip","value":{"$content":3,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":488.0,"y":8.0},"guid":"f16e2903-3780-4226-bc9d-7d0dd1a0b1c8","$version":"A","$type":"Bolt.Literal","$id":"37"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip","System.Single"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null,"%volumeScale":{"$content":3.0,"$type":"System.Single"}},"position":{"x":647.0,"y":384.0},"guid":"f431e2ce-8929-4972-9f69-07a4f409fe21","$version":"A","$type":"Bolt.InvokeMember","$id":"39"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip","System.Single"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null,"%volumeScale":{"$content":3.0,"$type":"System.Single"}},"position":{"x":-132.0,"y":-11.0},"guid":"01988767-ee8b-4e9a-8e1d-9d4b0b237f65","$version":"A","$type":"Bolt.InvokeMember","$id":"42"},{"sourceUnit":{"$ref":"28"},"sourceKey":"trigger","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"32d5e2b1-8f10-42cc-a286-6f0ef9a98ca8","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"81b56e1b-d58f-48e7-a7f0-e5dd3d5140e9","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"39"},"destinationKey":"enter","guid":"f410a565-4f9b-40da-aa76-4d4919964c26","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"42"},"destinationKey":"enter","guid":"8ae6ed22-6e4b-4329-81a4-3b1c6cd74a2b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"trigger","destinationUnit":{"$ref":"30"},"destinationKey":"enter","guid":"ac550e91-1927-4020-aec2-b171f1c15316","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"39"},"destinationKey":"%clip","guid":"435e452d-e797-4116-be0e-6eec17b07b48","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"%clip","guid":"01c4063e-7cc6-4fbb-b0db-843a2e0c922f","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"37"},"sourceKey":"output","destinationUnit":{"$ref":"25"},"destinationKey":"%clip","guid":"b0354dcd-8c31-49a3-ac90-86c6a805fce1","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"33"},"sourceKey":"output","destinationUnit":{"$ref":"42"},"destinationKey":"%clip","guid":"6c8331ab-4949-4a54-b570-2fbe85464781","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"35"},"sourceKey":"output","destinationUnit":{"$ref":"30"},"destinationKey":"%clip","guid":"4917e385-fc0e-4c77-82bb-0c9455eea238","$type":"Bolt.ValueConnection"},{"position":{"xMin":-674.0,"yMin":316.25,"xMax":111.0001,"yMax":680.0001},"label":"Attack
+        Sound","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"c34bfe61-df2d-4200-96d9-2f76d4ae9f06","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":209.0,"yMin":311.0,"xMax":842.0,"yMax":710.0},"label":"HealSound","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"bf1cb4ae-d0ba-46fe-9fc2-07aa60675a69","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":170.3636,"yMin":-149.1818,"xMax":957.6363,"yMax":281.2727},"label":"JumpSound","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"daa566f8-97df-4e7a-87f4-83e8f813d61e","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046021, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: c48a972d3d024c2408a3331750786a29, type: 3}
+    - target: {fileID: 7110789478475046021, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 80151380c0f818243b66a78ef69c9fcd, type: 3}
+    - target: {fileID: 7110789478475046021, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6aeefb601c305f64487cebdfacae5b6c, type: 3}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046022, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110789478475046023, guid: 3dd68279631beab46829f31a14c88d4e,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3dd68279631beab46829f31a14c88d4e, type: 3}
 --- !u!1001 &908538877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4167,6 +4257,108 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1152466759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1169191277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5233800588450858760, guid: 44b90545e76be8945926cc7d30c8df43,
+    type: 3}
+  m_PrefabInstance: {fileID: 1825238221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1169191286
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169191277}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 80151380c0f818243b66a78ef69c9fcd, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1171953088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4199882011298505941, guid: 41965dfa2e264d646821484a776c3e68,
@@ -6463,7 +6655,7 @@ PrefabInstance:
     - target: {fileID: 5236196467843983864, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5236196467843983864, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
