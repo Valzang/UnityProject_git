@@ -108,7 +108,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
      <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
-     <None Include="Assets\IdiaSoftware\Blades&amp;Bludgeonings-Free\Documentation-Free.txt" />
      <None Include="Assets\Bolt\Ludiq\Assemblies\Ludiq.Core.Editor.xml" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\Gothicvania Cemetery Artwork\about.txt" />
