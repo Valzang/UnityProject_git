@@ -1834,6 +1834,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1344203198}
     m_Modifications:
+    - target: {fileID: 2663207879751361143, guid: f153c0e5fd1df6a4aa021bb2bacc2e66,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Detection","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"OG_X_Scale","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Attack_Time","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8788492154432791059, guid: f153c0e5fd1df6a4aa021bb2bacc2e66,
         type: 3}
       propertyPath: m_Name
@@ -2196,6 +2201,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1344203198}
     m_Modifications:
+    - target: {fileID: 2663207879751361143, guid: 0f86ccee710176049a4b5f9d48274fe6,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Detection","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"Attack_TimeGap","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Entrance","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Attack_Time","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8739142917497251675, guid: 0f86ccee710176049a4b5f9d48274fe6,
         type: 3}
       propertyPath: m_Constraints
