@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 465950967}
   - component: {fileID: 465950966}
   - component: {fileID: 465950965}
-  m_Layer: 5
+  m_Layer: 18
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 997515656}
   - component: {fileID: 997515655}
   - component: {fileID: 997515654}
-  m_Layer: 5
+  m_Layer: 18
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 2852746059570672990}
   - component: {fileID: 2852746059570672989}
   - component: {fileID: 9129784163866126634}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Potion_red
   m_TagString: Potion
   m_Icon: {fileID: 0}
