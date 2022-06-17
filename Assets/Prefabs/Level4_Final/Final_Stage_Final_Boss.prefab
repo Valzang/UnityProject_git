@@ -112,7 +112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8790357329527493891
 Transform:
   m_ObjectHideFlags: 0
@@ -188,7 +188,7 @@ Animator:
   m_GameObject: {fileID: 8788492154432791059}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1b99f1b8d7c49c547b07b49eb6e0a2a0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9db89b882994a654d8e2a46d6dd0f69d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -217,7 +217,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!114 &2663207879751361143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Detection","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"Attack_TimeGap","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Entrance","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":3.5,"$type":"System.Single"},"$version":"A"},{"name":"Detection","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"Attack_TimeGap","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Entrance","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Attack_Time","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Health","value":{"$content":11,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":2.5,"$type":"System.Single"},"$version":"A"},{"name":"Skill_Time","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Skill_One","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Start","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &8507437677728186898
 MonoBehaviour:
@@ -248,7 +248,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: d54a98b1d79a4c54eb44b797b30bf1c4, type: 2}
+    - {fileID: 11400000, guid: b0773befef414b248a1d275c8bce376d, type: 2}
 --- !u!61 &1420075256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -290,4 +290,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 31dd5c0498564674689582a34cf9e1b0, type: 2}
+    - {fileID: 11400000, guid: 5a8e863888b3949428954d35cfc8a059, type: 2}
