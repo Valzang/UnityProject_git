@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"LifeTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Arrow_Xpos","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow_Ypos","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow_Zpos","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow_Startpos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"LifeTime","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Arrow_Xpos","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow_Ypos","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow_Zpos","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow_Startpos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CurrentTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &4584159814080567175
 MonoBehaviour:
