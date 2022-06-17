@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 290791865}
   - component: {fileID: 290791868}
   - component: {fileID: 290791867}
-  m_Layer: 5
+  m_Layer: 18
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 1127479794}
   - component: {fileID: 1127479793}
   - component: {fileID: 1127479792}
-  m_Layer: 5
+  m_Layer: 18
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 8312717854626589200}
   - component: {fileID: 8312717854626589203}
   - component: {fileID: 8312717854626589202}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 01_Fireball
   m_TagString: Fireball
   m_Icon: {fileID: 0}
