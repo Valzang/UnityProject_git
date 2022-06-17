@@ -1028,7 +1028,7 @@ PrefabInstance:
     - target: {fileID: 5234422084776876048, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Monster_Current_Amount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Monster_Max_Amount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Current_Direction","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"HasPotion","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasFireBall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ShootFireBall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Attack_Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Skeleton_Max","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Skeleton_Current_Amount","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Monster_Current_Amount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Monster_Max_Amount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Current_Direction","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"HasPotion","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasFireBall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ShootFireBall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Attack_Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Skeleton_Max","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Skeleton_Current_Amount","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5236196467843983864, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
@@ -1038,12 +1038,12 @@ PrefabInstance:
     - target: {fileID: 5236196467843983864, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -113.88
+      value: 25.8
       objectReference: {fileID: 0}
     - target: {fileID: 5236196467843983864, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.62
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 5236196467843983864, guid: 44b90545e76be8945926cc7d30c8df43,
         type: 3}
